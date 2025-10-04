@@ -43,6 +43,7 @@ TensorBoard event files (.tfevents) are saved under logs/(model_name)/.
 Training modes like ftfull, bitfit, backrazor, and lora are configured via scripts in the cmds/ folder.
 
 For LoRA training, add the following flags:
+(Example)
 --train_lora_only \
 --lora_rank 4 \
 --lora_alpha 8 \
