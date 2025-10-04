@@ -22,6 +22,9 @@ After completing the installation steps above:
    git clone https://github.com/mirasomv/backrazor-lora.git
    cd backrazor-lora
 2. Copy/replace the provided files into your BackRazor installation
-3. Run experiments as described in the original BackRazor instructions, now with the updated files.
+3. Download [ViT-S/16](https://github.com/google-research/vision_transformer) and put it into pretrain/ folder
+4. Run experiments as described in the original BackRazor instructions, now with the updated files.
 
-This fork adds support for LoRA (Low-Rank Adaptation), allowing efficient fine-tuning with reduced parameter count and memory usage.
+This fork adds support for LoRA (Low-Rank Adaptation), allowing efficient fine-tuning with reduced parameter count and memory usage. If using the same cmd, the results will be saved as follows:
+Console log (.txt) + time + Energy usage (.csv) in logs/ folder
+TFEvents in logs/(model name)/ folder
